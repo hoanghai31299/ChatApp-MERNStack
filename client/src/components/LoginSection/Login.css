@@ -1,0 +1,78 @@
+.login {
+    width: 80vw;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 40% 60%;
+}
+
+.login__main>.login__title {
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    color: #5c66f5;
+    text-transform: capitalize;
+}
+
+.login__images {
+    background: url("../../assets/chat.png");
+    background-size: cover;
+}
+
+.login__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.login__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4rem 3rem;
+}
+
+.login__form>* {
+    margin: 1rem 0;
+}
+
+.login__form>input {
+    outline: none;
+    border: none;
+    text-align: center;
+    border-bottom: 2px solid rgba(0, 0, 0, .6);
+    padding: .4rem 1.2rem;
+    background-color: transparent;
+    transition: .3s all ease;
+}
+
+.login__form>input:focus {
+    border-bottom: 2px solid #B9BEFF;
+}
+
+.login__form>input::placeholder {
+    font-size: .7rem;
+}
+
+.login__form>button {
+    width: 100%;
+    padding: .9rem 2rem;
+    text-transform: capitalize;
+    color: white;
+    background-color: #505050;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 2rem;
+}
+
+.login__sub a {
+    display: inline-block;
+    padding-top: .6rem;
+    border-bottom: 1px solid #505050;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #505050;
+}

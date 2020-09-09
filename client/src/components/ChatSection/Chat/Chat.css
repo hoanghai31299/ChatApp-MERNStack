@@ -1,0 +1,39 @@
+.chat__container {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.chat__header {
+    display: flex;
+    align-items: center;
+}
+
+.chat__header__info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+}
+
+.chat__window {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    overflow: auto;
+}
+
+.chat__footer>form {
+    display: flex;
+    background-color: rgb(243, 219, 219);
+    border-radius: 2rem;
+}
+
+.chat__footer>form>input {
+    flex: 1;
+    outline: none;
+    padding: 0 .5rem;
+    border: none;
+    background-color: transparent;
+}

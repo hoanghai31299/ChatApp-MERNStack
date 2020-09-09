@@ -1,0 +1,35 @@
+.message {
+    padding: 0.7rem;
+    position: relative;
+    background: rgb(238, 226, 226);
+    margin: 1rem;
+    width: fit-content;
+    max-width: 50%;
+}
+
+.message>h3 {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+}
+
+.message>.message__time {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    font-size: 0.6rem;
+}
+
+.message.mine {
+    margin-left: auto;
+    background-color: rgb(136, 136, 231);
+}
+
+.message.mine>.message__content {
+    color: white;
+}
+
+.message.mine>.message__time {
+    top: 100%;
+    left: 0;
+}

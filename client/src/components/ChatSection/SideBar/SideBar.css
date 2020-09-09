@@ -1,0 +1,26 @@
+.chat__sidebar {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.sidebar__search {
+    display: flex;
+    align-items: center;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    background-color: rgb(243, 219, 219);
+    margin-bottom: 1rem;
+}
+
+.sidebar__search>.MuiSvgIcon-root {
+    color: #9b9b9c;
+}
+
+.sidebar__search>input {
+    color: rgb(63, 60, 60);
+    background-color: transparent;
+    outline: 0;
+    border: none;
+    padding: .3rem 2rem;
+}
